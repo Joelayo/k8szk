@@ -33,7 +33,7 @@ To build and push the new Zookeeper image to Azure Container Registry (ACR), fol
 3. **Build and push the Docker image**:
    - Use the `az acr build` command to build and push the Docker image to ACR:
      ```sh
-     az acr build --registry $ACR_NAME --image zookeeper:latest .
+     az acr build --registry $ACR_NAME --image solr-zookeeper:latest .
      ```
    - This command will:
      - Build the Docker image using the Dockerfile in the current directory.
